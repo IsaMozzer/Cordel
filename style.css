@@ -20,18 +20,21 @@ header{
 
 header > h1{
     margin: 0px;
-    font-size: 200px;
+    font-size: 10vw;
     color: white;
     font-family: titulo;
 }
 
 header > h2 {
+    font-size: 5vw;
     font-family: arial;
 
 }
 
 p{
+    font-size: 40px;
     font-family: 'texto';
+    white-space: pre-line;
 }
 
 a{
@@ -39,6 +42,28 @@ a{
     text-decoration: none;
 }
 
-.img1{
-    background-image: url('./imagens/background001.jpg');
+footer{ 
+    font-size: 1vw;
+    background-color: black;
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-family: arial;
+}
+
+.background{
+        
+        background-color: grey;
+        background: white url("./imagens/background002.jpg") no-repeat center;
+        background-attachment: fixed;
+        background-size: auto;
+    }
+
+.fundo_texto{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 2px;
+    display: inline-block;
+    padding: 2px;
+    margin-left: 2px; 
 }
