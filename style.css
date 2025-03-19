@@ -1,0 +1,44 @@
+@font-face{
+    font-family: 'texto' ;
+    src: url('./fontes/Sriracha-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'titulo' ;
+    src: url('./fontes/PassionOne-Bold.ttf');
+}
+
+body{
+    background-color:white;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    margin: 0px;
+    font-size: 200px;
+    color: white;
+    font-family: titulo;
+}
+
+header > h2 {
+    font-family: arial;
+
+}
+
+p{
+    font-family: 'texto';
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.img1{
+    background-image: url('./imagens/background001.jpg');
+}
